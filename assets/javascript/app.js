@@ -23,10 +23,10 @@ var questions = [{
 
 {
     "question": "3.What did Optimus Prime say to Megatron at the great battle?",
-    "option1": "Al",
-    "option2": "E.T.",
-    "option3": "Alien",
-    "option4": "Howard the Duck",
+    "option1": "Hello?is it me you're looking for?",
+    "option2": "one shall stand, one shall fall",
+    "option3": "lets hug this out",
+    "option4": "autobots,roll out",
     "answer": "2"
 }, 
 
@@ -51,10 +51,10 @@ console.log(container)
 console.log(container.innerHTML)
 var questionEl = document.getElementById('question');
 console.log(questionEl)
-var ch1 = document.getElementById('ch1');
-var ch2 = document.getElementById('ch2');
-var ch3 = document.getElementById('ch3');
-var ch3 = document.getElementById('ch4');
+var ch1 = document.getElementById('opt1');
+var ch2 = document.getElementById('opt2');
+var ch3 = document.getElementById('opt3');
+var ch3 = document.getElementById('opt4');
 var nextButton = document.getElementById('nextButton');
 var resultCont = document.getElementById('result');
 
