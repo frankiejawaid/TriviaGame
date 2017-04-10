@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Robots in Disguise</title>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+</head>
+<body>
+        <body background="http://cdn.wallpapersafari.com/95/69/HIAcG7.png"</body>
+        <div class="container row text-left" id="quizContainer">
+            <h1>
+                <div class="goingleft">Robots in Disguise</div>
+            </h1>
+             <div class="start">
+            <button id="start">and go!!!</button><br>
+        </div><br>
+         <div><p id="timer">You have  <span id="counter"></span> seconds left.</p></div>
+
+            <main>
+                <form id="quiz" name="quiz">
+
+                    <h3>1.What planet are the transformers from?</h3>
+                    <ul>
+                    <label class="option">
+                        <li><input type="radio" name="option" value="1" /><span id="opt1">Pluto</span></li></label>
+                    <label class="option">    
+                        <li><input type="radio" name="option" value="2" /><span id="opt2">Earth</span></li></label>
+                    <label class="option">    
+                        <li><input type="radio" name="option" value="3" /><span id="opt3">Uranus</span></li></label>
+                    <label class="option">    
+                        <li><input type="radio" name="option" value="4" /><span id="opt4">Cybertron</span></li></label>
+
+                    </ul>   
+                    <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+                </form>
+
+               
+                
+
+                <div id="result" class="container result" style="display:none;"></div>
+                <br>
+                
+                </main>
+
+        </div>
+    
+        
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+</body>
+</html>
